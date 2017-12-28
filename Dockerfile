@@ -1,5 +1,5 @@
 # 使用的基础镜像
-FROM my/ubuntu
+FROM my/ubuntu:jre8
 
 # 作者信息
 MAINTAINER Brian "brian.xan@gmail.com"
