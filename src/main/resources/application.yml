@@ -7,10 +7,10 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: docker.for.mac.host.internal
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://docker.for.mac.host.internal:8761/eureka/
     registerWithEureka: false
     fetchRegistry: false
   server:
