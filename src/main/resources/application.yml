@@ -7,10 +7,10 @@ server:
 
 eureka:
   instance:
-    hostname: 192.168.16.1
+    hostname: 192.168.236.8
   client:
     serviceUrl:
-      defaultZone: http://192.168.16.1:8761/eureka/
+      defaultZone: http://192.168.236.8:8761/eureka/
     registerWithEureka: false
     fetchRegistry: false
   server:
