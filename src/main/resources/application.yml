@@ -5,10 +5,10 @@ spring:
     name: common-eureka
 eureka:
   instance:
-    hostname: 47.99.63.139
+    hostname: 172.16.138.245
   client:
     serviceUrl:
-      defaultZone: http://47.99.63.139:8761/eureka/
+      defaultZone: http://172.16.138.245:8761/eureka/
     registerWithEureka: false
     fetchRegistry: false
   server:
