@@ -15,3 +15,8 @@ eureka:
     enableSelfPreservation: false
     response-cache-update-interval-ms: 3000
     response-cache-auto-expiration-in-seconds: 180
+logging:
+  level:
+    com.insight: info
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] %logger{35}: %msg%n'
